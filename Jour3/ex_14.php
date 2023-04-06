@@ -1,7 +1,7 @@
 <?php
-function say_my_name(&$string){
-    $string .='[name]';
+function say_my_name($name = "Toto")
+{
+    echo "My name is $name !";
 }
-$str = 'My name is';
-say_my_name($str);
-?>
+// echo say_my_name("michel");
+// echo say_my_name();
