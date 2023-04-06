@@ -1,0 +1,4 @@
+<?php
+$myvar ;
+unset($myvar);
+?>
