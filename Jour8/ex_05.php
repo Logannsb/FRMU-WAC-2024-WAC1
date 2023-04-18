@@ -1,7 +1,6 @@
 <?php
 function str_lower_epur(string $str): ?string
 {
-    // Vérifier que la chaîne n'est pas vide
     if (empty($str)) {
         return null;
     }
